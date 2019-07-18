@@ -1,0 +1,255 @@
+.slide {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    width: 100%;
+    img {
+        width: 100%;
+    }
+}
+
+/* 教师简介盒子 */
+
+.introduction_box {
+    width: 100%;
+    height: 457px;
+    margin-bottom: 93px;
+    /* 教师简介左侧 */
+    .teacher_introduction {
+        width: 430px;
+        display: flex;
+        flex-direction: column;
+        float: left;
+        .title {
+            width: 120px;
+            height: 42px;
+            font-size: 30px;
+            font-family: PingFangSC-Medium;
+            font-weight: 500;
+            color: rgba(34, 34, 33, 1);
+            line-height: 42px;
+            margin-bottom: 14px;
+        }
+        .line {
+            width: 148px;
+            height: 6px;
+            background: rgba(228, 102, 49, 1);
+            margin-bottom: 13px;
+        }
+        .sub_title {
+            width: 185px;
+            height: 28px;
+            font-size: 20px;
+            font-family: PingFangSC-Medium;
+            font-weight: 500;
+            color: rgba(34, 34, 33, 1);
+            line-height: 28px;
+            margin-bottom: 46px;
+        }
+        .info {
+            width: 549px;
+            height: 308px;
+            font-size: 20px;
+            font-family: PingFangSC-Regular;
+            font-weight: 400;
+            color: rgba(94, 93, 93, 1);
+            line-height: 28px;
+        }
+    }
+    /* 教师简介右侧 */
+    .my_album {
+        width: 601px;
+        height: 435px;
+        position: relative;
+        float: right;
+        /* 底部盒子 */
+        .bottom_box {
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            border: 5px solid rgba(216, 216, 216, 1);
+            box-sizing: border-box;
+            left: 50%;
+            bottom: 0;
+            transform: translate(-50%);
+            margin-left: -50px;
+            margin-bottom: 16px;
+        }
+        /* 右侧盒子 */
+        .right_box {
+            width: 402px;
+            height: 204px;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            background: rgba(228, 102, 49, 1);
+            .user_box {
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                margin-left: 35px;
+            }
+            p {
+                margin-bottom: 12px;
+            }
+            .title {
+                width: 120px;
+                height: 56px;
+                font-size: 40px;
+                font-family: PingFangSC-Medium;
+                font-weight: 500;
+                color: rgba(255, 255, 255, 1);
+                line-height: 56px;
+                margin-top: 20px;
+            }
+            .py {
+                width: 125px;
+                height: 28px;
+                font-size: 20px;
+                font-family: PingFangSC-Medium;
+                font-weight: 500;
+                color: rgba(255, 255, 255, 1);
+                line-height: 28px;
+            }
+            .work {
+                width: 200px;
+                height: 28px;
+                font-size: 20px;
+                font-family: PingFangSC-Medium;
+                font-weight: 500;
+                color: rgba(255, 255, 255, 1);
+                line-height: 28px;
+            }
+        }
+        /* 左侧盒子 */
+        .protagonist_photo {
+            width: 311px;
+            height: 397px;
+            background: url('../images/huhongmei.png') no-repeat;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+    }
+}
+
+/* 课程亮点盒子 */
+
+.curriculum_highlights {
+    margin-bottom: 100px;
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        P {
+            margin-bottom: 14px;
+            &:nth-last-of-type(1) {
+                margin-bottom: 44px;
+            }
+        }
+        .title {
+            width: 120px;
+            height: 42px;
+            font-size: 30px;
+            font-family: PingFangSC-Medium;
+            font-weight: 500;
+            color: rgba(34, 34, 33, 1);
+            line-height: 42px;
+        }
+        .line {
+            width: 148px;
+            height: 6px;
+            background: rgba(228, 102, 49, 1);
+        }
+        .py {
+            width: 213px;
+            height: 28px;
+            font-size: 20px;
+            font-family: PingFangSC-Medium;
+            font-weight: 500;
+            color: rgba(34, 34, 33, 1);
+            line-height: 28px;
+        }
+    }
+    .remarks {
+        width: 100%;
+        height: 84px;
+        font-size: 20px;
+        font-family: PingFangSC-Regular;
+        font-weight: 400;
+        color: rgba(94, 93, 93, 1);
+        line-height: 28px;
+    }
+    .teaching_methods {
+        margin-top: 20px;
+        .teaching_title {
+            width: 120px;
+            height: 33px;
+            font-size: 24px;
+            font-family: PingFangSC-Medium;
+            font-weight: 500;
+            color: rgba(228, 102, 49, 1);
+            line-height: 33px;
+        }
+        .content {
+            width: 100%;
+            height: 84px;
+            font-size: 20px;
+            font-family: PingFangSC-Regular;
+            font-weight: 400;
+            color: rgba(94, 93, 93, 1);
+            line-height: 28px;
+        }
+    }
+    /* element样式 */
+    .el-tabs__header {
+        text-align: center;
+        border-bottom: none !important;
+    }
+    .el-tabs__nav {
+        float: none;
+        border: none !important;
+    }
+    .el-tabs__item {
+        color: rgba(228, 102, 49, 1);
+        border-left: none !important;
+        font-size: 24px;
+        font-family: PingFangSC-Medium;
+        font-weight: 500;
+        color: rgba(228, 102, 49, 1);
+        line-height: 33px;
+        &.is-active {
+            color: #fff;
+            background-color: rgba(228, 102, 49, 1);
+            border-radius: 20px;
+        }
+    }
+    /* element样式 */
+    .micro_lesson {
+        margin-bottom: 50px;
+        li {
+            margin-top: 20px;
+        }
+        a {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 2px solid rgba(235, 235, 235, 1);
+            padding-bottom: 19px;
+            .micro_lesson_name {
+                height: 40px;
+                font-size: 28px;
+                font-family: PingFangSC-Regular;
+                font-weight: 400;
+                color: rgba(58, 58, 58, 1);
+                line-height: 40px;
+            }
+        }
+    }
+    .purchase_course {
+        a {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

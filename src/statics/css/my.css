@@ -1,0 +1,248 @@
+.slide {
+  margin-top: 40px;
+  margin-bottom: 100px;
+  width: 100%;
+}
+.slide img {
+  width: 100%;
+}
+/* 教师简介盒子 */
+.introduction_box {
+  width: 100%;
+  height: 457px;
+  margin-bottom: 93px;
+  /* 教师简介左侧 */
+  /* 教师简介右侧 */
+}
+.introduction_box .teacher_introduction {
+  width: 430px;
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+.introduction_box .teacher_introduction .title {
+  width: 120px;
+  height: 42px;
+  font-size: 30px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: #222221;
+  line-height: 42px;
+  margin-bottom: 14px;
+}
+.introduction_box .teacher_introduction .line {
+  width: 148px;
+  height: 6px;
+  background: #e46631;
+  margin-bottom: 13px;
+}
+.introduction_box .teacher_introduction .sub_title {
+  width: 185px;
+  height: 28px;
+  font-size: 20px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: #222221;
+  line-height: 28px;
+  margin-bottom: 46px;
+}
+.introduction_box .teacher_introduction .info {
+  width: 549px;
+  height: 308px;
+  font-size: 20px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #5e5d5d;
+  line-height: 28px;
+}
+.introduction_box .my_album {
+  width: 601px;
+  height: 435px;
+  position: relative;
+  float: right;
+  /* 底部盒子 */
+  /* 右侧盒子 */
+  /* 左侧盒子 */
+}
+.introduction_box .my_album .bottom_box {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border: 5px solid #d8d8d8;
+  box-sizing: border-box;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%);
+  margin-left: -50px;
+  margin-bottom: 16px;
+}
+.introduction_box .my_album .right_box {
+  width: 402px;
+  height: 204px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: #e46631;
+}
+.introduction_box .my_album .right_box .user_box {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-left: 35px;
+}
+.introduction_box .my_album .right_box p {
+  margin-bottom: 12px;
+}
+.introduction_box .my_album .right_box .title {
+  width: 120px;
+  height: 56px;
+  font-size: 40px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 56px;
+  margin-top: 20px;
+}
+.introduction_box .my_album .right_box .py {
+  width: 125px;
+  height: 28px;
+  font-size: 20px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 28px;
+}
+.introduction_box .my_album .right_box .work {
+  width: 200px;
+  height: 28px;
+  font-size: 20px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 28px;
+}
+.introduction_box .my_album .protagonist_photo {
+  width: 311px;
+  height: 397px;
+  background: url('../images/huhongmei.png') no-repeat;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+/* 课程亮点盒子 */
+.curriculum_highlights {
+  margin-bottom: 100px;
+  /* element样式 */
+  /* element样式 */
+}
+.curriculum_highlights .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.curriculum_highlights .header P {
+  margin-bottom: 14px;
+}
+.curriculum_highlights .header P:nth-last-of-type(1) {
+  margin-bottom: 44px;
+}
+.curriculum_highlights .header .title {
+  width: 120px;
+  height: 42px;
+  font-size: 30px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: #222221;
+  line-height: 42px;
+}
+.curriculum_highlights .header .line {
+  width: 148px;
+  height: 6px;
+  background: #e46631;
+}
+.curriculum_highlights .header .py {
+  width: 213px;
+  height: 28px;
+  font-size: 20px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: #222221;
+  line-height: 28px;
+}
+.curriculum_highlights .remarks {
+  width: 100%;
+  height: 84px;
+  font-size: 20px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #5e5d5d;
+  line-height: 28px;
+}
+.curriculum_highlights .teaching_methods {
+  margin-top: 20px;
+}
+.curriculum_highlights .teaching_methods .teaching_title {
+  width: 120px;
+  height: 33px;
+  font-size: 24px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: #e46631;
+  line-height: 33px;
+}
+.curriculum_highlights .teaching_methods .content {
+  width: 100%;
+  height: 84px;
+  font-size: 20px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #5e5d5d;
+  line-height: 28px;
+}
+.curriculum_highlights .el-tabs__header {
+  text-align: center;
+  border-bottom: none !important;
+}
+.curriculum_highlights .el-tabs__nav {
+  float: none;
+  border: none !important;
+}
+.curriculum_highlights .el-tabs__item {
+  border-left: none !important;
+  font-size: 24px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: #e46631;
+  line-height: 33px;
+}
+.curriculum_highlights .el-tabs__item.is-active {
+  color: #fff;
+  background-color: #e46631;
+  border-radius: 20px;
+}
+.curriculum_highlights .micro_lesson {
+  margin-bottom: 50px;
+}
+.curriculum_highlights .micro_lesson li {
+  margin-top: 20px;
+}
+.curriculum_highlights .micro_lesson a {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #ebebeb;
+  padding-bottom: 19px;
+}
+.curriculum_highlights .micro_lesson a .micro_lesson_name {
+  height: 40px;
+  font-size: 28px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #3a3a3a;
+  line-height: 40px;
+}
+.curriculum_highlights .purchase_course a {
+  display: flex;
+  justify-content: center;
+}
